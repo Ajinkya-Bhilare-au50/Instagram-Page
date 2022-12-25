@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: 0.9fr 0.9fr 0.9fr;
+  grid-template-rows: 0.8fr 0.8fr 0.8fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 25px 25px;
+  grid-auto-flow: row;
+  height: 700px;
+}
+
+.profile-pic {
+  grid-area: 1 / 1 / 2 / 2;
+  /* border: 2px solid red; */
+}
+.shraddha {
+  width: 30%;
+  border-radius: 1000px;
+}
+.Naam {
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(156, 154, 154);
+}
+.line1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.line2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+  color: rgb(156, 154, 154);
+}
+
+.setting-icons {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 94px;
+}
+.profile-pic {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.numbr {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
+.line3 {
+  padding-top: 6px;
+}
+.intro {
+  grid-area: 1 / 2 / 2 / 4;
+
+  padding-bottom: 105px;
+  padding-top: 65px;
+}
+
+.firstpic {
+  grid-area: 2 / 1 / 3 / 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.secondpic {
+  grid-area: 2 / 2 / 3 / 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.thirdpic {
+  grid-area: 2 / 3 / 3 / 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fourthpic {
+  grid-area: 3 / 1 / 4 / 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.fifthpic {
+  grid-area: 3 / 2 / 4 / 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sixthpic {
+  grid-area: 3 / 3 / 4 / 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.seventh {
+  grid-area: 4 / 1 / 5 / 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.eighthpic {
+  grid-area: 4 / 2 / 5 / 3;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ninethpic {
+  grid-area: 4 / 3 / 5 / 4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.btn {
+  border: 1px solid grey;
+  background-color: rgb(251, 251, 252);
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 14px;
+}
+.btn:hover {
+  background-color: rgb(214, 211, 211);
+}
+.icon {
+  position: absolute;
+  height: 50px;
+  top: 40px;
+  right: 50px;
+}
+.party:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=40);
+  /* filter: brightness(50%); */
+}
